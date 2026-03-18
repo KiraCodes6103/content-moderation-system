@@ -505,13 +505,3 @@ rmdir /s /q databases\chroma_moderation_db
 ```
 
 ---
-
-## 📝 Resume Talking Points
-
-> Developed a **full-stack content moderation platform** with a **multi-agent AI backend** powered by **Google Gemini and LangGraph**, and a **React frontend** using **Material-UI**. Implemented **specialized AI agents** with **ReAct Decision Loop** and **Human-in-the-Loop (HITL) checkpoints** for intelligent content moderation. Built the Think-Act-Observe reasoning pattern for synthesizing agent decisions with configurable consensus thresholds.
->
-> Created a **Moderation Dashboard with integrated HITL review queue** that allows human reviewers to approve/reject AI decisions with detailed explanations. The workflow automatically pauses for human input on low-confidence or high-severity cases, then resumes processing. Implemented priority-based queuing and comprehensive appeals management system for users to contest moderation decisions.
->
-> Developed a complete **React web application** with role-based access control (6 distinct roles), featuring a **Community Dashboard** as the main landing page with widget-based architecture, **Content Review Interface** for HITL moderation, and **Analytics Dashboards** for admins. Built user management system with registration, authentication, password updates, and admin CRUD operations. Integrated **ML-based toxicity detection** using HateBERT and DistilBERT transformers, with fallback to keyword-based detection.
->
-> Built with **FastAPI backend** and **React + Vite frontend**, using **SQLite** for dual-database architecture (auth and moderation data), **ChromaDB** for vector storage, **Zustand** for state management, and **Recharts** for data visualization. The system processes content in real-time with complete audit trails, explainable AI decisions, and professional UI/UX including custom hooks for data fetching and reusable widget components."
